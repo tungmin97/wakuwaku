@@ -4,7 +4,7 @@ import AnimeDetail from "./components/Main/AnimeDetail";
 import Archive from "./components/Main/Archive";
 import MainContent from "./components/Main/MainContent";
 import Settings from "./components/Main/Settings";
-import TBA from "./components/Main/tba";
+import TBA from "./components/Main/TBA";
 import Nav from "./components/Nav/Nav";
 import NavMobile from "./components/Nav/NavMobile";
 import Error from "./components/404/Error";
