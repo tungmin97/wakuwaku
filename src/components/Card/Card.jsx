@@ -19,8 +19,8 @@ export default function Card({ ani, language }) {
       />
       <div className="w-7/12 lg:w-[64%] flex flex-col flex-grow">
         <div className="min-h-0 w-full relative p-4 scrollbar-thumb-backgroundSecondary scrollbar-thumb-rounded-md scrollbar-thin overflow-x-hidden overflow-y-scroll flex-grow">
-          <div className="flex flex-col min-h-0 relative">
-            <div className="flex w-full opacity-100 transition-all duration-500 ease-in-out delay-75 transform group-hover:-translate-x-full group-hover:opacity-0">
+          <div className="flex flex-col min-h-0 h-2/5 relative">
+            <div className="flex w-full h-3/5 opacity-100 transition-all duration-500 ease-in-out delay-75 transform group-hover:-translate-x-full group-hover:opacity-0">
               <div className="w-full lg:w-9/12">
                 <CardAiring
                   schedule={ani.airingSchedule.nodes[0]}

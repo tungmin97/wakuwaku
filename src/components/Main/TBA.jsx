@@ -19,7 +19,7 @@ export default function TBA() {
       <main className="text-textTitle relative">
         <div className="mt-0 md:-mt-20 mx-3 md:mx-32 lg:mx-12 2xl:mx-48 mb-10">
           <AiringList
-            name="Popular Upcomming"
+            name="Popular Upcoming"
             dataAni={airingAnime}
             skeleton={9}
             language={userState.language}
