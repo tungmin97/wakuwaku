@@ -136,6 +136,7 @@ export default function CardMisc({ hashtag, links, trailer }) {
                 src={trailer.thumbnail}
                 alt="Trailer Thumbnail"
                 href={links}
+                loading="lazy"
               />
             </div>
             <AiOutlinePlayCircle className="absolute inset-0 flex m-auto w-6 h-6" />
@@ -153,6 +154,7 @@ export default function CardMisc({ hashtag, links, trailer }) {
               src={`https://www.youtube.com/embed/${
                 trailer && trailer.id
               }?autoplay=1&mute=1&modestbranding`}
+              loading="lazy"
             ></iframe>
           </div>
         </div>

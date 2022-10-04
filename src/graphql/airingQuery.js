@@ -46,7 +46,7 @@ export const airingQuery = gql`
         description
         bannerImage
         coverImage {
-          extraLarge
+          large
           color
         }
         trailer {

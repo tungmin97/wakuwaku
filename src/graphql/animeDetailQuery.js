@@ -36,7 +36,7 @@ export const animeDetailQuery = gql`
       description
       bannerImage
       coverImage {
-        extraLarge
+        large
         color
       }
       bannerImage
@@ -66,7 +66,7 @@ export const animeDetailQuery = gql`
               english
             }
             coverImage {
-              extraLarge
+              large
               color
             }
             status(version: 2)
@@ -135,7 +135,7 @@ export const animeDetailQuery = gql`
               native
             }
             coverImage {
-              extraLarge
+              large
               color
             }
           }

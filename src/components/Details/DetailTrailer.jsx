@@ -6,6 +6,7 @@ export default function DetailTrailer({ trailer }) {
         <iframe
           className="w-full h-full rounded"
           src={`https://www.youtube.com/embed/${trailer.id}?autoplay=0&mute=1&modestbranding`}
+          loading="lazy"
         ></iframe>
       </div>
     </div>

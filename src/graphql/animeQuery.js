@@ -103,7 +103,7 @@ export const animeQuery = gql`
     description
     bannerImage
     coverImage {
-      extraLarge
+      large
       color
     }
     trailer {
@@ -126,7 +126,6 @@ export const animeQuery = gql`
       nodes {
         id
         name
-        siteUrl
       }
     }
     relations {
@@ -139,7 +138,6 @@ export const animeQuery = gql`
             native
             english
           }
-          siteUrl
         }
       }
     }

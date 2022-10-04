@@ -12,7 +12,7 @@ export default function Card({ ani, language }) {
     <div className="flex flex-row h-64 min-w-sm text-left rounded bg-backgroundPrimary shadow-md overflow-hidden transition-shadow relative group">
       <CardHeader
         id={ani.id}
-        coverImg={ani.coverImage.extraLarge}
+        coverImg={ani.coverImage.large}
         title={ani.title[language] ?? ani.title.romaji ?? ani.title.native}
         studios={ani.studios.nodes}
         color={ani.coverImage.color}

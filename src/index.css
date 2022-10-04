@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
-  :root {
-    --color-text-base: #5c728a;
-    --color-bg-primary: #edf1f5;
-    --color-bg-secondary: #fafcfc;
-    --color-bg-tertiary: #eff7fb;
-  }
-} */
-
 .info {
   color: var(--info-color);
 }

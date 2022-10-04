@@ -45,11 +45,22 @@ export default function AnimeDetail() {
                   detailAni.bannerImage && "-mt-10"
                 }`}
               >
-                <img
-                  className="mx-auto rounded-md object-cover drop-shadow-2xl mb-3 md:mb-0"
-                  src={detailAni.coverImage.extraLarge}
-                  alt="Cover Image"
-                />
+                {detailAni.coverImage.large ? (
+                  <img
+                    className="w-full h-full rounded-md object-cover drop-shadow-2xl mb-3 md:mb-0"
+                    src={detailAni.coverImage.large}
+                    alt="Cover Image"
+                  />
+                ) : (
+                  <div
+                    className="w-full h-full rounded-md drop-shadow-2xl mb-3 md:mb-0 genre"
+                    style={{
+                      "--genre-color": detailAni.coverImage.color
+                        ? detailAni.coverImage.color
+                        : "#69C3F0",
+                    }}
+                  ></div>
+                )}
               </div>
               <div className="md:w-3/4 bg-backgroundSecondary p-3 pt-5 md:pl-7 pb-2">
                 <h1 className="text-2xl 2xl:text-3xl font-semibold text-textPrimary">

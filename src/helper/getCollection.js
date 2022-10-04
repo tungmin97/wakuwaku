@@ -2,7 +2,7 @@ import { gql } from "graphql-request";
 
 export const getCollection = (ids) => {
   let collectionQuery = gql`
-    fragment myMedia on Media {
+    fragment media on Media {
       id
       title {
         romaji
@@ -36,7 +36,7 @@ export const getCollection = (ids) => {
       description
       bannerImage
       coverImage {
-        extraLarge
+        large
         color
       }
       trailer {
@@ -115,7 +115,7 @@ export const getCollection = (ids) => {
       description
       bannerImage
       coverImage {
-        extraLarge
+        large
         color
       }
       trailer {
@@ -164,7 +164,7 @@ export const getCollection = (ids) => {
   let subQuery = "";
   ids.forEach((id, index) => {
     subQuery += `anime${index}:Media(id:${id}) {
-          ...myMedia
+          ...media
       },`;
   });
   collectionQuery += `{ ${subQuery} }`;
