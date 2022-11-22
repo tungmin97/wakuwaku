@@ -20,7 +20,7 @@
     "react-router-dom": "^6.4.0",
     "tailwind-scrollbar": "^2.0.1",
     "tailwindcss-themer": "^2.0.2",
-    "tslib": "^2.4.0"
+    "tslib": "^2.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
