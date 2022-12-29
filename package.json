@@ -19,7 +19,7 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.0",
     "tailwind-scrollbar": "^2.0.1",
-    "tailwindcss-themer": "^2.0.2",
+    "tailwindcss-themer": "^2.0.3",
     "tslib": "^2.4.0"
   },
   "devDependencies": {
